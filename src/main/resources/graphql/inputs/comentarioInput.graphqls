@@ -1,0 +1,6 @@
+input ComentarioInput {
+    id: String
+    texto: String
+    usuario: String
+    serieId: String
+}

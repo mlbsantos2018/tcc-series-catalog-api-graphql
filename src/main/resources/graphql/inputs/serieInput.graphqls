@@ -1,0 +1,8 @@
+input SerieInput {
+    id: String
+    titulo: String
+    descricao: String
+    nota: String
+    anoDeLancamento: String
+    categoria: CategoriaInput
+}
