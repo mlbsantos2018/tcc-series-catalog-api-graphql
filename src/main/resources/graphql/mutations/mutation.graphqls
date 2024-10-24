@@ -1,0 +1,13 @@
+type Mutation {
+    saveCategoria(categoriaInput: CategoriaInput): Categoria
+    updateCategoria(categoriaInput: CategoriaInput): Categoria
+    deleteCategoria(id: String): String
+    
+    deleteComentario(id: String): String
+    updateComentario(comentarioInput: ComentarioInput) : Comentario
+    saveComentario(comentarioInput: ComentarioInput) : Comentario  
+
+    deleteSerie(id: String) : String
+    updateSerie(serieInput: SerieInput): Serie
+    saveSerie(serieInput: SerieInput): Serie  
+}
