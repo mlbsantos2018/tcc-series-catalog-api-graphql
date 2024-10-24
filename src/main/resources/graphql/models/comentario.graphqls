@@ -1,0 +1,6 @@
+type Comentario {
+    id: ID
+    texto: String
+    usuario: String
+    serieId: String
+}

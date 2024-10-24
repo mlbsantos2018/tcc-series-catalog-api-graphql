@@ -1,0 +1,4 @@
+type Categoria {
+    id: String
+    nome: String
+}

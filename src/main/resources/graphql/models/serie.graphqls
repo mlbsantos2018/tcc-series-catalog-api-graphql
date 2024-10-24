@@ -1,0 +1,8 @@
+type Serie {
+    id: ID
+    titulo: String
+    descricao: String
+    nota: String
+    anoDeLancamento: String
+    categoria: Categoria
+}
