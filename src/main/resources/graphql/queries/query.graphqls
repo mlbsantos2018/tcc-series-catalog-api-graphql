@@ -1,0 +1,18 @@
+type Query {
+
+    findAllCategorias: [Categoria]
+    findCategoriaById(id: String): Categoria
+
+
+    findAllComentarios: [Comentario]
+    findComentarioById(id: String) : Comentario
+    findBySerieId(serieId: String) : [Comentario]
+
+
+    findAllSeries: [Serie]
+    findSeriesById(id: String): Serie
+    findByTitulo(titulo: String): [Serie]
+    findByCategoriaNome(nomeCategoria: String): [Serie]
+    findByAnoDeLancamento(anoDeLancamento: String): [Serie]
+    findByNotaMinima(nota: Float): [Serie]
+}
